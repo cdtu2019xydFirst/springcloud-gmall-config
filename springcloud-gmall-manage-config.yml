@@ -1,6 +1,6 @@
-﻿spring:
+spring:
   profiles:
-    active:
+    active: 
       - dev
 ---
 server:
