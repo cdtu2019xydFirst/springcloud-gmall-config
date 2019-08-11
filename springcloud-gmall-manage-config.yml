@@ -30,7 +30,7 @@ info:
 ---
 server:
   port: 9002
-
+  
 spring:
   profiles: manage-service
   application:
@@ -39,6 +39,11 @@ spring:
     password: root
     username: root
     url: jdbc:mysql://localhost:3306/springcloudgmall?serverTimezone=UTC&useSSL=false
+  redis:
+    database: 0
+    host: 192.168.255.140
+    port: 6379
+    password: xyd1314521
 
 eureka:
   client:
