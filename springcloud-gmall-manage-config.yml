@@ -33,8 +33,8 @@ server:
   
 spring:
   profiles: manage-service
-  activemq:
-    broker-url: tcp://192.168.255.140:61616
+#   activemq:
+#     broker-url: tcp://192.168.255.140:61616
   application:
     name: springcloud-gmall-manage-service
   datasource:
@@ -47,9 +47,9 @@ spring:
     port: 6379
     password: xyd1314521
 
-activemq:
-  listener:
-    enable: true
+# activemq:
+#   listener:
+#     enable: true
 
 eureka:
   client:
